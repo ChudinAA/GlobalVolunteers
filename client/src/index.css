@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 214 90% 34%; /* #2C5282 - Primary Blue */
+  --primary-foreground: 211 100% 99%;
+  --secondary: 142 63% 42%; /* #38A169 - Secondary Green */
+  --secondary-foreground: 24 9.8% 10%;
+  --accent: 60 4.8% 95.9%;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+  
+  /* Project category colors */
+  --medical: 0 83% 57%; /* #E53E3E - Medical Red */
+  --education: 45 86% 61%; /* #ECC94B - Education Yellow */
+  --sports: 209 76% 50%; /* #3182CE - Sports Blue */
+  --environment: 142 69% 51%; /* #48BB78 - Environment Green */
+  
+  /* Chart colors */
+  --chart-1: var(--medical);
+  --chart-2: var(--education);
+  --chart-3: var(--sports);
+  --chart-4: var(--environment);
+  --chart-5: var(--primary);
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 214 90% 34%;
+  --primary-foreground: 211 100% 99%;
+  --secondary: 142 63% 42%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply antialiased bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    @apply font-semibold;
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Project Category Colors */
+.text-medical {
+  color: hsl(var(--medical));
+}
+
+.text-education {
+  color: hsl(var(--education));
+}
+
+.text-sports {
+  color: hsl(var(--sports));
+}
+
+.text-environment {
+  color: hsl(var(--environment));
+}
+
+.bg-medical {
+  background-color: hsl(var(--medical));
+}
+
+.bg-education {
+  background-color: hsl(var(--education));
+}
+
+.bg-sports {
+  background-color: hsl(var(--sports));
+}
+
+.bg-environment {
+  background-color: hsl(var(--environment));
+}
+
+.bg-medical-light {
+  background-color: hsl(var(--medical) / 0.2);
+}
+
+.bg-education-light {
+  background-color: hsl(var(--education) / 0.2);
+}
+
+.bg-sports-light {
+  background-color: hsl(var(--sports) / 0.2);
+}
+
+.bg-environment-light {
+  background-color: hsl(var(--environment) / 0.2);
+}
+
+.bg-primary-light {
+  background-color: hsl(var(--primary) / 0.15);
+}
+
+.border-medical {
+  border-color: hsl(var(--medical));
+}
+
+.border-education {
+  border-color: hsl(var(--education));
+}
+
+.border-sports {
+  border-color: hsl(var(--sports));
+}
+
+.border-environment {
+  border-color: hsl(var(--environment));
+}
+
+/* Video background */
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.video-container video,
+.video-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 82, 130, 0.6); /* Primary color with 60% opacity */
+}
+
+/* Map pin animations */
+.map-pin {
+  transition: transform 0.2s ease;
+}
+
+.map-pin:hover {
+  transform: scale(1.25);
+}
+
+/* Carousel arrows */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 10;
+}
+
+.carousel-arrow-left {
+  left: 10px;
+}
+
+.carousel-arrow-right {
+  right: 10px;
+}
+
+/* Form focus states */
+.form-input:focus {
+  box-shadow: 0 0 0 2px hsl(var(--primary) / 0.5);
+}

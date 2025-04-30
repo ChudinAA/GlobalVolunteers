@@ -1,0 +1,437 @@
+{
+  "general": {
+    "logo": "GlobalVolunteers",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "notFound": "Not Found",
+    "back": "Back",
+    "submit": "Submit",
+    "search": "Search",
+    "readMore": "Read More",
+    "details": "Details",
+    "share": "Share",
+    "reset": "Reset",
+    "apply": "Apply"
+  },
+  "general_logo": "GlobalVolunteers",
+  "general_loading": "Loading...",
+  "general_error": "An error occurred",
+  "general_notFound": "Not Found",
+  "general_back": "Back",
+  "general_submit": "Submit",
+  "general_search": "Search",
+  "general_readMore": "Read More",
+  "general_details": "Details",
+  "general_share": "Share",
+  "general_reset": "Reset",
+  "general_apply": "Apply",
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "volunteers": "For Volunteers",
+    "organizations": "For Organizations",
+    "about": "About Us",
+    "team": "Our Team",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "home_meta_title": "GlobalVolunteers - Change the World with Us",
+  "home_meta_description": "Join our international team of volunteers and help those in need around the world.",
+  
+  "home_hero_title": "Change the World with Us",
+  "home_hero_description": "Join our international team of volunteers and help those in need around the world.",
+  "home_hero_volunteerButton": "Become a Volunteer",
+  "home_hero_partnerButton": "Become a Partner",
+  "home_hero_imageAlt": "Volunteers working together",
+  
+  "home_map_title": "Our Projects Around the World",
+  "home_map_categories": "Project Categories",
+  "home_map_noProjects": "No projects available at the moment",
+  "home_map_projectsFound": "Projects found",
+  "home_map_projects": "projects",
+  
+  "home_activeProjects_title": "Active Projects",
+  "home_activeProjects_description": "Join our current projects around the world. Each project is an opportunity to help those in need and gain invaluable experience.",
+  "home_activeProjects_viewAll": "View All Projects",
+  "home_activeProjects_noProjects": "No active projects at the moment",
+  "home_activeProjects_nowActive": "Now Active",
+  
+  "home_about_title": "About the Project",
+  "home_about_mission_title": "Mission",
+  "home_about_mission_description": "Our mission is to connect caring people with those who need help, creating a culture of global volunteering and helping to solve social problems in different parts of the planet.",
+  "home_about_goal_title": "Goal",
+  "home_about_goal_description": "To create the world's largest network of volunteers and organizations ready to collaborate, and to implement at least 1000 international projects by 2025 in the fields of medicine, education, sports and ecology.",
+  "home_about_uniqueness_title": "Uniqueness",
+  "home_about_uniqueness_description": "We offer comprehensive support for volunteers at all stages, from selecting a project to returning home, ensuring safety, support and the opportunity to maximize their potential.",
+  "projects": {
+    "meta": {
+      "title": "Projects - GlobalVolunteers",
+      "description": "Browse our volunteering projects around the world in medicine, education, sports, and ecology."
+    },
+    "title": "Our Projects",
+    "description": "Browse our volunteering projects around the world in medicine, education, sports, and ecology.",
+    "noResults": "No projects match your filter criteria.",
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "status": "Status",
+      "location": "Location",
+      "period": "Period",
+      "deadline": "Recruitment Deadline",
+      "allCategories": "All Categories",
+      "allStatuses": "All Statuses",
+      "allLocations": "All Locations"
+    }
+  },
+  "project": {
+    "curator": "Curator",
+    "details": "Details",
+    "apply": "Apply for this project"
+  },
+  "projectDetail": {
+    "back": "Back to Projects",
+    "period": "Project Period",
+    "location": "Location",
+    "recruitmentDeadline": "Recruitment Deadline",
+    "organization": "Organization",
+    "curator": "Project Curator",
+    "apply": "Apply for this Project",
+    "fullDescription": "Full Description",
+    "conditions": "Conditions",
+    "volunteerFunction": "Volunteer Functions"
+  },
+  "volunteers": {
+    "meta": {
+      "title": "For Volunteers - GlobalVolunteers",
+      "description": "Information for those who want to become volunteers and join our international projects."
+    },
+    "title": "For Volunteers",
+    "infoTitle": "Become a Volunteer",
+    "infoParagraph1": "Volunteering with us is a unique opportunity to help those in need while gaining invaluable experience and making new friends from all over the world.",
+    "infoParagraph2": "Our projects cover various areas including medicine, education, sports, and ecology, allowing you to choose a program that matches your interests and skills.",
+    "benefitsTitle": "What will you get?",
+    "benefit1": "Opportunity to help people in different countries",
+    "benefit2": "Valuable experience and new skills",
+    "benefit3": "Immersion in a new culture",
+    "benefit4": "International connections and contacts",
+    "testimonialsTitle": "Volunteer Testimonials",
+    "noTestimonials": "No testimonials yet",
+    "ctaTitle": "Ready to make a difference?",
+    "ctaDescription": "Browse our projects and find one that suits your interests and schedule. Join our global team of volunteers today!",
+    "viewProjects": "View Projects",
+    "joinNow": "Join Now",
+    "applyButton": "Apply as a Volunteer"
+  },
+  "organizations": {
+    "meta": {
+      "title": "For Organizations - GlobalVolunteers",
+      "description": "Information for organizations that want to collaborate with us on volunteer projects."
+    },
+    "title": "For Organizations",
+    "infoTitle": "Partner with Us",
+    "infoParagraph1": "Our organization connects motivated volunteers with organizations that need support in various areas, including medicine, education, sports, and ecology.",
+    "infoParagraph2": "We offer comprehensive support throughout the entire collaboration process, from finding suitable volunteers to project completion and evaluation.",
+    "benefitsTitle": "Partnership Benefits",
+    "benefit1Title": "Qualified Volunteers",
+    "benefit1Description": "Get access to qualified volunteers from around the world with diverse skills and backgrounds.",
+    "benefit2Title": "International Collaboration",
+    "benefit2Description": "Expand your network of contacts and reach an international level.",
+    "benefit3Title": "Recognition and Reputation",
+    "benefit3Description": "Strengthen your image as a socially responsible organization.",
+    "benefit4Title": "Innovative Solutions",
+    "benefit4Description": "Gain access to new ideas and approaches from international specialists.",
+    "testimonialsTitle": "Partner Testimonials",
+    "noTestimonials": "No testimonials yet",
+    "ctaTitle": "Let's work together",
+    "ctaDescription": "Fill out the form below to start a conversation about how we can collaborate on meaningful projects.",
+    "becomePartner": "Become a Partner"
+  },
+  "about": {
+    "meta": {
+      "title": "About Us - GlobalVolunteers",
+      "description": "Learn about GlobalVolunteers, our mission, goals, and impact around the world."
+    },
+    "title": "About Us",
+    "mission": {
+      "title": "Mission",
+      "description": "Our mission is to connect caring people with those who need help, creating a culture of global volunteering and helping to solve social problems in different parts of the planet."
+    },
+    "goal": {
+      "title": "Goal",
+      "description": "To create the world's largest network of volunteers and organizations ready to collaborate, and to implement at least 1000 international projects by 2025 in the fields of medicine, education, sports and ecology."
+    },
+    "uniqueness": {
+      "title": "Uniqueness",
+      "description": "We offer comprehensive support for volunteers at all stages, from selecting a project to returning home, ensuring safety, support and the opportunity to maximize their potential."
+    },
+    "history": {
+      "title": "Our History",
+      "paragraph1": "GlobalVolunteers was founded in 2015 by a group of international humanitarian workers who recognized the need for a coordinated approach to volunteer placement around the world.",
+      "paragraph2": "What began as a small initiative with just 10 volunteers and 3 projects has grown into a global organization connecting thousands of volunteers with meaningful projects in over 30 countries.",
+      "paragraph3": "Today, we continue to expand our reach and impact, focusing on sustainable development and building lasting partnerships with local communities and organizations."
+    },
+    "impact": {
+      "title": "Our Impact",
+      "projects": "Projects completed",
+      "volunteers": "Volunteers engaged",
+      "countries": "Countries served",
+      "achievements": "Key Achievements",
+      "achievement1": {
+        "title": "Award-Winning Volunteer Programs",
+        "description": "Our medical volunteer program was recognized with the International Humanitarian Award in 2022."
+      },
+      "achievement2": {
+        "title": "Sustainable Community Development",
+        "description": "Our programs have helped establish 50+ sustainable community initiatives that continue to thrive after our direct involvement ends."
+      },
+      "achievement3": {
+        "title": "Global Partnership Network",
+        "description": "We've built a network of over 200 partner organizations across 6 continents."
+      }
+    },
+    "gallery": {
+      "title": "Photo Gallery",
+      "alt1": "Volunteers working in a community garden",
+      "alt2": "Educational project in Africa",
+      "alt3": "Sports activity with local children",
+      "alt4": "Medical volunteer providing healthcare"
+    },
+    "cta": {
+      "title": "Want to know more?",
+      "description": "Learn about our team members or contact us directly with any questions.",
+      "meetTeam": "Meet Our Team",
+      "contactUs": "Contact Us"
+    }
+  },
+  "team": {
+    "meta": {
+      "title": "Our Team - GlobalVolunteers",
+      "description": "Meet the dedicated team behind GlobalVolunteers who make our global projects possible."
+    },
+    "title": "Our Team",
+    "description": "Meet the dedicated people who make our global projects possible",
+    "noMembers": "Team information coming soon",
+    "values": {
+      "title": "Our Values",
+      "value1": {
+        "title": "Integrity",
+        "description": "We believe in honesty, transparency, and ethical behavior in all our interactions."
+      },
+      "value2": {
+        "title": "Collaboration",
+        "description": "We work together with volunteers, communities, and partner organizations to achieve common goals."
+      },
+      "value3": {
+        "title": "Innovation",
+        "description": "We continuously seek new and better ways to address challenges and create positive impact."
+      }
+    }
+  },
+  "news": {
+    "meta": {
+      "title": "News - GlobalVolunteers",
+      "description": "Stay updated with the latest news and achievements from our projects around the world."
+    },
+    "title": "News",
+    "description": "Latest events and achievements from our projects around the world",
+    "readMore": "Read More",
+    "share": "Share",
+    "noNews": "No news articles available at the moment"
+  },
+  "contact": {
+    "meta": {
+      "title": "Contact Us - GlobalVolunteers",
+      "description": "Get in touch with GlobalVolunteers - we're here to answer your questions and help you get involved."
+    },
+    "title": "Contact Us",
+    "description": "We're here to answer your questions and help you get involved",
+    "info": {
+      "title": "Contact Information",
+      "address": "Moscow, Volunteer Street, 42",
+      "phone": "+7 (999) 123-45-67",
+      "email": "info@globvolunteer.org",
+      "workingHours": "Monday-Friday: 9:00 - 18:00"
+    },
+    "form": {
+      "title": "Send us a message",
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Your message has been sent! We'll get back to you soon.",
+      "error": "There was an error sending your message. Please try again."
+    },
+    "social": {
+      "title": "Follow Us",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    },
+    "map": {
+      "title": "Our Location"
+    }
+  },
+  "footer": {
+    "description": "International platform for volunteers and organizations making the world better every day",
+    "navigation": "Navigation",
+    "categories": "Categories",
+    "contact": "Contact",
+    "copyright": "© {{year}} GlobalVolunteers. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "legal": "Legal Information"
+  },
+  "footer_description": "International platform for volunteers and organizations making the world better every day",
+  "footer_navigation": "Navigation",
+  "footer_categories": "Categories",
+  "footer_contact": "Contact",
+  "footer_copyright": "© {{year}} GlobalVolunteers. All rights reserved.",
+  "footer_privacy": "Privacy Policy",
+  "footer_terms": "Terms of Use",
+  "footer_legal": "Legal Information",
+  "partners": {
+    "title": "Our Partners",
+    "description": "Organizations that help us make a difference around the world"
+  },
+  "categories": {
+    "all": "All Projects",
+    "medical": "Medicine",
+    "education": "Education",
+    "sports": "Sports",
+    "environment": "Environment"
+  },
+  "status": {
+    "active": "Active",
+    "upcoming": "Upcoming",
+    "completed": "Completed"
+  },
+  "status_active": "Active",
+  "status_upcoming": "Upcoming",
+  "status_completed": "Completed",
+  "forms": {
+    "submitting": "Submitting...",
+    "volunteer": {
+      "title": "I Want to Participate",
+      "description": "Fill out the form, and our coordinators will contact you to discuss the details of participating in projects.",
+      "name": "Name and Surname",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "Enter your email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter your phone number",
+      "category": "Area of Interest",
+      "categoryPlaceholder": "Select an area",
+      "categoryNone": "No preference",
+      "message": "Tell us about yourself",
+      "messagePlaceholder": "Your experience, skills, interests...",
+      "submit": "Submit Application",
+      "successTitle": "Application Submitted!",
+      "successMessage": "Thank you for your interest in volunteering with us. We'll contact you soon.",
+      "errorTitle": "Submission Error",
+      "errorMessage": "There was a problem submitting your application. Please try again.",
+      "thankyouTitle": "Thank You!",
+      "thankyouMessage": "We've received your application and will contact you soon to discuss the next steps.",
+      "submitAnother": "Submit Another Application",
+      "imageAlt": "Happy volunteers",
+      "benefits": {
+        "title": "What will you get:",
+        "benefit1": "Opportunity to help people in different countries",
+        "benefit2": "Valuable experience and new skills",
+        "benefit3": "Immersion in a new culture",
+        "benefit4": "International connections and contacts"
+      }
+    },
+    "partner": {
+      "title": "Become a Partner",
+      "orgName": "Organization Name",
+      "orgNamePlaceholder": "Enter organization name",
+      "contactName": "Contact Person",
+      "contactNamePlaceholder": "Enter contact person's name",
+      "email": "Email",
+      "emailPlaceholder": "Enter email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Enter phone number",
+      "partnershipType": "Partnership Type",
+      "partnershipTypePlaceholder": "Select partnership type",
+      "partnershipTypes": {
+        "project": "Volunteer Project Implementation",
+        "sponsor": "Sponsorship Support",
+        "information": "Information Partnership",
+        "other": "Other"
+      },
+      "submit": "Submit Application",
+      "successTitle": "Application Submitted!",
+      "successMessage": "Thank you for your interest in partnering with us. We'll contact you soon.",
+      "errorTitle": "Submission Error",
+      "errorMessage": "There was a problem submitting your application. Please try again.",
+      "thankyouTitle": "Thank You!",
+      "thankyouMessage": "We've received your partnership inquiry and will contact you soon to discuss collaboration opportunities.",
+      "submitAnother": "Submit Another Inquiry",
+      "benefits": {
+        "title": "Partnership Benefits",
+        "description": "Partnering with us opens up many opportunities for your organization.",
+        "benefit1": {
+          "title": "Access to Volunteers",
+          "description": "Get qualified volunteers for your project from around the world."
+        },
+        "benefit2": {
+          "title": "International Collaboration",
+          "description": "Expand your network of contacts and reach an international level."
+        },
+        "benefit3": {
+          "title": "Recognition and Reputation",
+          "description": "Strengthen your image as a socially responsible organization."
+        },
+        "benefit4": {
+          "title": "Innovative Solutions",
+          "description": "Gain access to new ideas and approaches from international specialists."
+        }
+      }
+    },
+    "contact": {
+      "name": "Your Name",
+      "namePlaceholder": "Enter your name",
+      "email": "Your Email",
+      "emailPlaceholder": "Enter your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter message subject",
+      "message": "Your Message",
+      "messagePlaceholder": "Enter your message here...",
+      "submit": "Send Message",
+      "successTitle": "Message Sent!",
+      "successMessage": "Thank you for your message. We'll get back to you soon.",
+      "errorTitle": "Sending Error",
+      "errorMessage": "There was a problem sending your message. Please try again."
+    }
+  },
+  "partners": {
+    "noPartners": "There are no partners at the moment",
+    "label": "Our Partners",
+    "title": "Global Cooperation",
+    "description": "We collaborate with leading organizations worldwide to make our projects meaningful and effective.",
+    "becomePartner": "Become a Partner"
+  },
+  "common": {
+    "loading": "Loading data..."
+  },
+  "home": {
+    "activeProjects": {
+      "nowActive": "Now Active"
+    }
+  },
+  "contact_info_address": "Moscow, Volunteer Street, 42",
+  "contact_info_phone": "+7 (999) 123-45-67",
+  "contact_info_email": "info@globvolunteer.org",
+  "errors": {
+    "projectsLoad": "Failed to load projects. Please try again.",
+    "projectLoad": "Failed to load project details. Please try again.",
+    "projectNotFound": "Project not found. It may have been removed or the ID is incorrect.",
+    "newsLoad": "Failed to load news. Please try again.",
+    "teamLoad": "Failed to load team members. Please try again.",
+    "partnersLoad": "Failed to load partners. Please try again.",
+    "testimonialsLoad": "Failed to load testimonials. Please try again.",
+    "mapLoad": "Failed to load the map. Please try again."
+  }
+}
